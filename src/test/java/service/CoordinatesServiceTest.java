@@ -26,8 +26,8 @@ public class CoordinatesServiceTest {
     }
 
     @Test(dataProvider = "validCoordinates")
-    public void testValidCoordinatesComparisonFarther(Dot dot1, Dot dot2, int comparison) {
-        int closerDot = coordinatesService.getComparedDistance(dot1, dot2);
+    public void compareDistanceValidTest(Dot dot1, Dot dot2, int comparison) {
+        int closerDot = coordinatesService.compareDistance(dot1, dot2);
         assertEquals(closerDot, comparison);
     }
 
@@ -41,8 +41,8 @@ public class CoordinatesServiceTest {
     }
 
     @Test(dataProvider = "invalidCoordinates")
-    public void testInvalidCoordinatesComparison(Dot dot1, Dot dot2, int comparison) {
-        int closerDot = coordinatesService.getComparedDistance(dot1, dot2);
+    public void compareDistanceInvalidTest(Dot dot1, Dot dot2, int comparison) {
+        int closerDot = coordinatesService.compareDistance(dot1, dot2);
         assertNotEquals(closerDot, comparison);
     }
 }

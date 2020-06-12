@@ -16,7 +16,7 @@ public class TimeServiceTest {
     }
 
     @Test
-    public void testValidTimeCalculation() {
+    public void calculateTimeValidTest() {
         int seconds = 84003;
         Clock clock1 = timeService.calculateTime(seconds);
         Clock clock2 = new Clock(23, 20, 3);
@@ -24,7 +24,7 @@ public class TimeServiceTest {
     }
 
     @Test
-    public void testInvalidTimeCalculation() {
+    public void calculateTimeInvalidTest() {
         int seconds = 84321;
         Clock clock1 = timeService.calculateTime(seconds);
         Clock clock2 = new Clock(23, 20, 3);

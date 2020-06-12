@@ -2,90 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04fd8d9e-1e48-426d-93ba-eedff156636d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Epam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Epam.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/console/ConsoleWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Dot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Month.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/exception/NumberParserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/ArithmeticService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/CircleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/CoordinatesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/EvenElementsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/MonthSpecifierService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/SquareService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/TimeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/validator/NumberValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/validator/parser/NumberParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parser/NumberParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/ArithmeticServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/CircleServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/CoordinatesServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/EvenElementsServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/MonthSpecifierServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/SquareServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/TimeServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/validator/NumberValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EPAM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EPAM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/InputOutputTools/InputHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/InputOutputTools/OutputHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task1/SquareCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task10/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task10/TanFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task2/MonthSpecifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task3/AreaCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task4/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task4/NumbersChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task5/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task5/PerfectNumberChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task6/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task6/SecondsCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task7/Coordinates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task7/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task8/FunctionCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task8/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task9/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task9/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/InputOutputTools/InputHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/InputOutputTools/OutputHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task1/SquareCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task10/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task10/TanFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task2/MonthSpecifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task3/AreaCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task3/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task4/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task4/NumbersChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task5/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task5/PerfectNumberChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task6/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task6/SecondsCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task7/Coordinates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task7/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task8/FunctionCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task8/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task9/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task9/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/CoordinatesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/CoordinatesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/validator/NumberValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/validator/NumberValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/ArithmeticServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/ArithmeticServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/CircleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CircleServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/CoordinatesServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CoordinatesServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/EvenElementsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/EvenElementsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/MonthSpecifierServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/MonthSpecifierServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/SquareServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/SquareServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/TimeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/TimeServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/validator/NumberValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/validator/NumberValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/service/CoordinatesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/аnton/core/service/CoordinatesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/validator/NumberValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/аnton/core/validator/NumberValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/ArithmeticServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/ArithmeticServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/CircleServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/CircleServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/CoordinatesServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/CoordinatesServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/EvenElementsServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/EvenElementsServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/MonthSpecifierServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/MonthSpecifierServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/SquareServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/SquareServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/TimeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/TimeServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/validator/NumberValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/validator/NumberValidatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,22 +74,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.ArithmeticServiceTest">
-    <configuration name="NumberParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EPAM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="parser" />
-      <option name="MAIN_CLASS_NAME" value="parser.NumberParserTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ArithmeticServiceTest.xDependantHigherFuncInvalidTest">
     <configuration name="ArithmeticServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EPAM" />
       <extension name="coverage">
@@ -154,24 +86,6 @@
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArithmeticServiceTest.testInvalidCountTanInRange" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EPAM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
-      <option name="METHOD_NAME" value="testInvalidCountTanInRange" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -196,33 +110,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberParserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArithmeticServiceTest.xDependantHigherFuncInvalidTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parser.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parser" />
-      <option name="MAIN_CLASS_NAME" value="parser.NumberParserTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
+      <option name="METHOD_NAME" value="xDependantHigherFuncInvalidTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArithmeticServiceTest.xDependantHigherFuncValidTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validator.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="validator" />
-      <option name="MAIN_CLASS_NAME" value="validator.NumberValidatorTest" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
+      <option name="METHOD_NAME" value="xDependantHigherFuncValidTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.TimeServiceTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -232,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ArithmeticServiceTest.xDependantHigherFuncInvalidTest" />
+        <item itemvalue="TestNG.ArithmeticServiceTest.xDependantHigherFuncValidTest" />
+        <item itemvalue="TestNG.TimeServiceTest" />
         <item itemvalue="TestNG.ArithmeticServiceTest" />
         <item itemvalue="TestNG.ArithmeticServiceTest.testValidCountTanInRange" />
-        <item itemvalue="TestNG.NumberParserTest" />
-        <item itemvalue="TestNG.NumberValidatorTest" />
-        <item itemvalue="TestNG.ArithmeticServiceTest.testInvalidCountTanInRange" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +201,7 @@
       <workItem from="1591779350703" duration="722000" />
       <workItem from="1591947117740" duration="5179000" />
       <workItem from="1591952326529" duration="285000" />
+      <workItem from="1591952888715" duration="1925000" />
     </task>
     <servers />
   </component>
@@ -303,22 +237,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590763068619" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591952301295">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591955355208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591952301295" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591952301295">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591955355208" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591955355207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591952301295" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591952301295">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591955355207" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591955355207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591952301295" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591952301295">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591955355207" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591955355208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591952301295" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591955355208" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591558597724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -339,10 +273,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591519565394" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1591952325684">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1591954143373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591952325684" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591954143373" />
     <state x="499" y="182" key="extract.method.dialog" timestamp="1591283663450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

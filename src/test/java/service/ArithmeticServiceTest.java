@@ -19,75 +19,71 @@ public class ArithmeticServiceTest {
         arithmeticService = new ArithmeticService();
     }
 
-    @Test
-    public void testValidXDependantHigherFunc() {
-        int x = 3;
+    @DataProvider(name = "validX")
+    public Object[][] createValidX() {
+        return new Object[][]{
+                {3, 9, 0.001},
+                {1, -.2, 0.001}
+        };
+    }
+
+    @Test(dataProvider = "validX")
+    public void calculateXDependantFuncValidTest(int x, double actual, double delta) {
         double res = arithmeticService.calculateXDependantFunc(x);
-        double delta = Math.abs(res / 1000);
-        assertEquals(res, 9, delta);
+        assertEquals(res, actual, delta);
+    }
+
+    @DataProvider(name = "invalidX")
+    public Object[][] createInvalidX() {
+        return new Object[][]{
+                {4, 9, 0.001},
+                {1, -1, 0.001}
+        };
+    }
+
+    @Test(dataProvider = "invalidX")
+    public void calculateXDependantFuncInvalidTest(int x, double actual, double delta) {
+        double res = arithmeticService.calculateXDependantFunc(x);
+        assertNotEquals(res, actual, delta);
     }
 
     @Test
-    public void testValidXDependantSmallerFunc() {
-        int x = 1;
-        double res = arithmeticService.calculateXDependantFunc(x);
-        double delta = Math.abs(res / 1000);
-        assertEquals(res, -.2, delta);
-    }
-
-    @Test
-    public void testInvalidXDependantHigherFunc() {
-        int x = 4;
-        double res = arithmeticService.calculateXDependantFunc(x);
-        double delta = Math.abs(res / 1000);
-        assertNotEquals(res, 9, delta);
-    }
-
-    @Test
-    public void testInvalidXDependantSmallerFunc() {
-        int x = 1;
-        double res = arithmeticService.calculateXDependantFunc(x);
-        double delta = Math.abs(res / 1000);
-        assertNotEquals(res, -1, delta);
-    }
-
-    @Test
-    public void testValidCalculateSquareNumber() {
+    public void calculateSquareNumberValidTest() {
         int x = 4;
         int res = arithmeticService.calculateSquareNumber(x);
         assertEquals(res, 16);
     }
 
     @Test
-    public void testInvalidCalculateSquareNumber() {
+    public void calculateSquareNumberInvalidTest() {
         int x = 4;
         int res = arithmeticService.calculateSquareNumber(x);
         assertNotEquals(res, 9);
     }
 
     @Test
-    public void testValidCalculateLastDigitSquared() {
+    public void calculateLastDigitSquaredValidTest() {
         int x = 16;
         int res = arithmeticService.calculateLastDigitSquared(x);
         assertEquals(res, 6);
     }
 
     @Test
-    public void testInvalidCalculateLastDigitSquared() {
+    public void calculateLastDigitSquaredInvalidTest() {
         int x = 16;
         int res = arithmeticService.calculateLastDigitSquared(x);
         assertNotEquals(res, 1);
     }
 
     @Test
-    public void testValidIsPerfectNumber() {
+    public void isPerfectNumberValidTest() {
         int x = 6;
         boolean res = arithmeticService.isPerfect(x);
         assertTrue(res);
     }
 
     @Test
-    public void testInvalidIsPerfectNumber() {
+    public void isPerfectNumberInvalidTest() {
         int x = 7;
         boolean res = arithmeticService.isPerfect(x);
         assertFalse(res);
@@ -103,13 +99,13 @@ public class ArithmeticServiceTest {
     }
 
     @Test(dataProvider = "dotList")
-    public void testValidCountTanInRange(List<Dot> dotList) {
+    public void countTanInRangeValidTest(List<Dot> dotList) {
         List<Dot> expectedDots = arithmeticService.countTanInRange(3, 7, 2);
         assertEquals(expectedDots, dotList);
     }
 
     @Test(dataProvider = "dotList")
-    public void testInvalidCountTanInRange(List<Dot> dotList) {
+    public void countTanInRangeInvalidTest(List<Dot> dotList) {
         List<Dot> expectedDots = arithmeticService.countTanInRange(3, 9, 2);
         assertNotEquals(expectedDots, dotList);
     }

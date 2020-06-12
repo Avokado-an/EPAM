@@ -15,7 +15,7 @@ public class SquareServiceTest {
     }
 
     @Test
-    public void validSideFromDiagonalCalculation() {
+    public void calculateSideFromDiagonalValidTest() {
         double diagonal = 4.;
         double expectedLength = squareService.calculateSideFromDiagonal(diagonal);
         double actualLength = 4 / Math.sqrt(2);
@@ -24,7 +24,7 @@ public class SquareServiceTest {
     }
 
     @Test
-    public void invalidSideFromDiagonalCalculation() {
+    public void calculateSideFromDiagonalInvalidTest() {
         double diagonal = 4.;
         double expectedLength = squareService.calculateSideFromDiagonal(diagonal + 1);
         double actualLength = 4 / Math.sqrt(2);
@@ -33,7 +33,7 @@ public class SquareServiceTest {
     }
 
     @Test
-    public void validAreaCalculation() {
+    public void calculateAreaValidTest() {
         double side = 4.5;
         double expectedArea = squareService.calculateArea(side);
         double actualArea = Math.pow(side, 2);
@@ -42,7 +42,7 @@ public class SquareServiceTest {
     }
 
     @Test
-    public void invalidAreaCalculation() {
+    public void calculateAreaInvalidTest() {
         double side = 4.5;
         double expectedArea = squareService.calculateArea(side + 1);
         double actualArea = Math.pow(side, 2);

@@ -16,7 +16,7 @@ public class CircleServiceTest {
     }
 
     @Test
-    public void testValidCalculatingArea() {
+    public void calculateAreaValidTest() {
         double radius = 5d;
         double area = circleService.calculateArea(radius);
         double realArea = 78.5;
@@ -25,7 +25,7 @@ public class CircleServiceTest {
     }
 
     @Test
-    public void testInvalidCalculatingArea() {
+    public void calculateAreaInvalidTest() {
         double radius = 5d;
         double area = circleService.calculateArea(radius);
         double falseArea = 43.5;
@@ -34,7 +34,7 @@ public class CircleServiceTest {
     }
 
     @Test
-    public void testValidCalculatingLength() {
+    public void calculateLengthValidTest() {
         double radius = 5d;
         double area = circleService.calculateLength(radius);
         double realLength = 31.4;
@@ -43,7 +43,7 @@ public class CircleServiceTest {
     }
 
     @Test
-    public void testInvalidCalculatingLength() {
+    public void calculateLengthInvalidTest() {
         double radius = 5d;
         double area = circleService.calculateArea(radius);
         double falseLength = 23.4;

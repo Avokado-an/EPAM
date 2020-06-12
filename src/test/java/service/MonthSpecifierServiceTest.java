@@ -26,7 +26,7 @@ public class MonthSpecifierServiceTest {
     }
 
     @Test(dataProvider = "validMonthAndDay")
-    public void testValidDaysAmountCalculationLeapFebruary(int year, String month, int expectedDays) {
+    public void calculateAmountOfDaysValidTest(int year, String month, int expectedDays) {
         int days = monthService.calculateAmountOfDays(month, year);
         assertEquals(days, expectedDays);
     }
@@ -42,7 +42,7 @@ public class MonthSpecifierServiceTest {
     }
 
     @Test(dataProvider = "invalidMonthAndDay")
-    public void testInvalidDaysAmountCalculation(int year, String month, int expectedDays) {
+    public void calculateAmountOfDaysInvalidTest(int year, String month, int expectedDays) {
         int days = monthService.calculateAmountOfDays(month, year);
         assertNotEquals(days, expectedDays);
     }

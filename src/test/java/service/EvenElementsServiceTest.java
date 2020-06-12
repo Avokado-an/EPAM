@@ -19,14 +19,14 @@ public class EvenElementsServiceTest {
     }
 
     @Test
-    public void testValidEvenNumberChecker() {
+    public void doesContainTwoEvensValidTest() {
         List<Integer> elements = Arrays.asList(1, 2, 3, 4);
         boolean result = elementsService.doesContainTwoEvens(elements);
         assertTrue(result);
     }
 
     @Test
-    public void testInvalidEvenNumberChecker() {
+    public void doesContainTwoEvensInvalidTest() {
         List<Integer> elements = Arrays.asList(1, 1, 3, 4);
         boolean result = elementsService.doesContainTwoEvens(elements);
         assertFalse(result);

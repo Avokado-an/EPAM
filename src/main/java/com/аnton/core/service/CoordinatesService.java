@@ -7,11 +7,11 @@ public class CoordinatesService {
         return Math.pow(dot.getX(), 2) * Math.pow(dot.getY(), 2);
     }
 
-    private Double compareDistance(Dot dot1, Dot dot2) {
+    private Double compareDotDistance(Dot dot1, Dot dot2) {
         return calculateSquaredDistanceToDot(dot1) - calculateSquaredDistanceToDot(dot2);
     }
 
-    public int getComparedDistance(Dot dot1, Dot dot2) {
+    public int compareDistance(Dot dot1, Dot dot2) {
         double comparison = compareDistance(dot1, dot2);
         if(comparison < 0)
             return 1;

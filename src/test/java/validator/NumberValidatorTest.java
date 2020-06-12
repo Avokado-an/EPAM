@@ -18,12 +18,12 @@ public class NumberValidatorTest {
     }
 
     @Test
-    public void testValidIntParsingInRange() {
+    public void validateIntInRangeValidTest() {
         try {
             String min = "1";
             String max = "10";
             String number = "3";
-            int res = validator.parseIntInRange(number, min, max);
+            int res = validator.validateIntInRange(number, min, max);
             assertEquals(res, 3);
         } catch(NumberParserException ex) {
             fail();
@@ -39,16 +39,16 @@ public class NumberValidatorTest {
     }
 
     @Test(expectedExceptions = NumberParserException.class, dataProvider = "invalidIntInRange")
-    public void testExceptionIntParsingInRange(String min, String max, String number) throws NumberParserException {
-        validator.parseIntInRange(number, min, max);
+    public void validateIntInRangeExceptionTest(String min, String max, String number) throws NumberParserException {
+        validator.validateIntInRange(number, min, max);
     }
 
     @Test
-    public void testValidIntParsingWithMin() {
+    public void validateIntWithMinValidTest() {
         try {
             String min = "1";
             String number = "1234";
-            int res = validator.parseIntWithMin(number, min);
+            int res = validator.validateIntWithMin(number, min);
             assertEquals(res, 1234);
         } catch (NumberParserException ex) {
             fail();
@@ -56,18 +56,18 @@ public class NumberValidatorTest {
     }
 
     @Test(expectedExceptions = NumberParserException.class)
-    public void testExceptionIntParsingWithMin() throws NumberParserException {
+    public void validateIntWithMinExceptionTest() throws NumberParserException {
         String min = "1234";
         String number = "1";
-        validator.parseIntWithMin(number, min);
+        validator.validateIntWithMin(number, min);
     }
 
     @Test
-    public void testValidIntParsingWithMax() {
+    public void validateIntWithMaxValidTest() {
         try {
             String max = "12345";
             String number = "1234";
-            int res = validator.parseIntWithMax(number, max);
+            int res = validator.validateIntWithMax(number, max);
             assertEquals(res, 1234);
         } catch (NumberParserException ex) {
             fail();
@@ -75,19 +75,19 @@ public class NumberValidatorTest {
     }
 
     @Test(expectedExceptions = NumberParserException.class)
-    public void testExceptionIntParsingWithMax() throws NumberParserException {
+    public void validateIntWithMaxExceptionTest() throws NumberParserException {
         String max = "1234";
         String number = "12345";
-        validator.parseIntWithMax(number, max);
+        validator.validateIntWithMax(number, max);
     }
 
     @Test
-    public void testValidFloatParsingInRange() {
+    public void validateFloatInRangeValidTest() {
         try {
             String min = "1.";
             String max = "10.";
             String number = "3.";
-            validator.parseFloatInRange(number, min, max);
+            validator.validateFloatInRange(number, min, max);
         } catch (NumberParserException ex) {
             fail();
         }
@@ -102,43 +102,43 @@ public class NumberValidatorTest {
     }
 
     @Test(expectedExceptions = NumberParserException.class, dataProvider = "invalidFloatInRange")
-    public void testExceptionFloatParsingInRange(String min, String max, String number) throws NumberParserException {
-        validator.parseFloatInRange(number, min, max);
+    public void validateFloatInRangeExceptionTest(String min, String max, String number) throws NumberParserException {
+        validator.validateFloatInRange(number, min, max);
     }
 
     @Test
-    public void testValidFloatParsingWithMin() {
+    public void validateFloatWithMinValidTest() {
         try {
             String min = "1.";
             String number = "1234.";
-            validator.parseFloatWithMin(number, min);
+            validator.validateFloatWithMin(number, min);
         } catch (NumberParserException ex) {
             fail();
         }
     }
 
     @Test(expectedExceptions = NumberParserException.class)
-    public void testExceptionFloatParsingWithMin() throws NumberParserException {
+    public void validateFloatWithMinExceptionTest() throws NumberParserException {
         String min = "1234.";
         String number = "1.";
-        validator.parseIntWithMin(number, min);
+        validator.validateIntWithMin(number, min);
     }
 
     @Test
-    public void testValidFloatParsingWithMax() {
+    public void validateFloatWithMaxValidTest() {
         try {
             String max = "12345.";
             String number = "1234.";
-            validator.parseFloatWithMax(number, max);
+            validator.validateFloatWithMax(number, max);
         } catch (NumberParserException ex) {
             fail();
         }
     }
 
     @Test(expectedExceptions = NumberParserException.class)
-    public void testExceptionFloatParsingWithMax() throws NumberParserException {
+    public void validateFloatWithMaxExceptionTest() throws NumberParserException {
         String max = "1234.";
         String number = "12345";
-        validator.parseFloatWithMax(number, max);
+        validator.validateFloatWithMax(number, max);
     }
 }
