@@ -1,7 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04fd8d9e-1e48-426d-93ba-eedff156636d" name="Default Changelist" comment="" />
+    <list default="true" id="04fd8d9e-1e48-426d-93ba-eedff156636d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Epam" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Epam.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/console/ConsoleWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Dot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/exception/NumberParserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/ArithmeticService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/CircleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/CoordinatesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/EvenElementsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/MonthSpecifierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/SquareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/TimeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/validator/NumberValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/validator/parser/NumberParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parser/NumberParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/ArithmeticServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/CircleServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/CoordinatesServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/EvenElementsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/MonthSpecifierServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/SquareServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/TimeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/validator/NumberValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EPAM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EPAM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/InputOutputTools/InputHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/InputOutputTools/OutputHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task1/SquareCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task10/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task10/TanFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task2/MonthSpecifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task3/AreaCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task4/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task4/NumbersChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task5/PerfectNumberChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task6/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task6/SecondsCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task7/Coordinates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task7/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task8/FunctionCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task8/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task9/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EPAM/com/Anton/core/task9/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/InputOutputTools/InputHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/InputOutputTools/OutputHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task1/SquareCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task10/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task10/TanFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task2/MonthSpecifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task3/AreaCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task4/NumbersChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task5/PerfectNumberChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task6/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task6/SecondsCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task7/Coordinates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task7/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task8/FunctionCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task8/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task9/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Anton/core/task9/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +96,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1caNu2XjDyXkTWzi7zjBnzLLjaC" />
@@ -23,83 +119,124 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Anton.core.task10.Main" />
+  <component name="RunManager" selected="TestNG.ArithmeticServiceTest">
+    <configuration name="NumberParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Anton.core.task10.*" />
+          <option name="PATTERN" value="parser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="parser" />
+      <option name="MAIN_CLASS_NAME" value="parser.NumberParserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Anton.core.task7.Main" />
+    <configuration name="ArithmeticServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Anton.core.task7.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Anton.core.task8.Main" />
+    <configuration name="ArithmeticServiceTest.testInvalidCountTanInRange" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Anton.core.task8.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
+      <option name="METHOD_NAME" value="testInvalidCountTanInRange" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Anton.core.task9.Main" />
+    <configuration name="ArithmeticServiceTest.testValidCountTanInRange" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Anton.core.task9.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
+      <option name="METHOD_NAME" value="testValidCountTanInRange" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Anton.core.task6.Main" />
+    <configuration name="NumberParserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Anton.core.task6.*" />
+          <option name="PATTERN" value="parser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="parser" />
+      <option name="MAIN_CLASS_NAME" value="parser.NumberParserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="validator" />
+      <option name="MAIN_CLASS_NAME" value="validator.NumberValidatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.ArithmeticServiceTest" />
+        <item itemvalue="TestNG.ArithmeticServiceTest.testValidCountTanInRange" />
+        <item itemvalue="TestNG.NumberParserTest" />
+        <item itemvalue="TestNG.NumberValidatorTest" />
+        <item itemvalue="TestNG.ArithmeticServiceTest.testInvalidCountTanInRange" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +255,19 @@
       <workItem from="1590833312049" duration="9059000" />
       <workItem from="1590862098909" duration="2560000" />
       <workItem from="1590923216652" duration="573000" />
+      <workItem from="1590924866069" duration="41000" />
+      <workItem from="1590945030935" duration="216000" />
+      <workItem from="1591127710844" duration="2465000" />
+      <workItem from="1591174444856" duration="5266000" />
+      <workItem from="1591273047614" duration="11690000" />
+      <workItem from="1591515615339" duration="216000" />
+      <workItem from="1591516320170" duration="11967000" />
+      <workItem from="1591602493715" duration="4208000" />
+      <workItem from="1591606832019" duration="10643000" />
+      <workItem from="1591703896243" duration="11020000" />
+      <workItem from="1591779350703" duration="722000" />
+      <workItem from="1591947117740" duration="5179000" />
+      <workItem from="1591952326529" duration="285000" />
     </task>
     <servers />
   </component>
@@ -125,54 +275,86 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1590842261842">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1591705123244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590842261842" />
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1591705123244" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591779473479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1591779473479" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1591273966030">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591273966030" />
+    <state x="400" y="102" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1591516468695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="400" y="102" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1591516468695" />
+    <state x="496" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591714692451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1591714692451" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591283712980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591283712980" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1590763068619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590763068619" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1590923789190">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591952301295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590923789190" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1590923789190">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591952301295" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591952301295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590923789190" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1590923789190">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591952301295" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591952301295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590923789190" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1590923789190">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591952301295" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591952301295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590923789190" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1590858665544">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591952301295" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591558597724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590858665544" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1590858665543">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591558597724" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1591558597724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590858665543" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1590858665543">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591558597724" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1591558597724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590858665543" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1590858665543">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591558597724" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1591558597724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590858665543" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1590923215765">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591558597724" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1591519565394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590923215765" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1590839061739">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591519565394" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1591952325684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590839061739" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591952325684" />
+    <state x="499" y="182" key="extract.method.dialog" timestamp="1591283663450">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="182" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1591283663450" />
+    <state x="209" y="34" key="new project wizard" timestamp="1591780071991">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591780071991" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1591704602995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591704602995" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590837967273">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
