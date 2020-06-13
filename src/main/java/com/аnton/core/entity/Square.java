@@ -16,11 +16,6 @@ public class Square {
     }
 
     @Override
-    public String toString() {
-        return String.format("Square: side length = %.3f", sideLength);
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o)
             return true;
@@ -33,5 +28,10 @@ public class Square {
     @Override
     public int hashCode() {
         return sideLength.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Square: side length = %.3f", sideLength);
     }
 }

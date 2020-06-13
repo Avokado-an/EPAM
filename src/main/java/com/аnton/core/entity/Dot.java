@@ -26,11 +26,6 @@ public class Dot {
     }
 
     @Override
-    public String toString() {
-        return String.format("Dot (%.2f ; %.2f)", x, y);
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o)
             return true;
@@ -44,4 +39,10 @@ public class Dot {
     public int hashCode() {
         return x.hashCode() + y.hashCode();
     }
+
+    @Override
+    public String toString() {
+        return String.format("Dot (%.2f ; %.2f)", x, y);
+    }
+
 }

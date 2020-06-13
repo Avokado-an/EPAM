@@ -1,4 +1,4 @@
-package service;
+package test.anton.service;
 
 import com.аnton.core.service.CircleService;
 import org.testng.annotations.BeforeClass;
@@ -11,7 +11,7 @@ public class CircleServiceTest {
     private static CircleService circleService;
 
     @BeforeClass
-    public static void initialize() {
+    public static void setup() {
         circleService = new CircleService();
     }
 

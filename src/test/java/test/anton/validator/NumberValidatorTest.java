@@ -1,4 +1,4 @@
-package validator;
+package test.anton.validator;
 
 
 import com.аnton.core.exception.NumberParserException;

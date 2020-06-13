@@ -42,11 +42,6 @@ public class Clock {
     }
 
     @Override
-    public String toString() {
-        return String.format("%s:%s:%s", checkTimeDigits(hours), checkTimeDigits(minutes), checkTimeDigits(seconds));
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o)
             return true;
@@ -65,5 +60,10 @@ public class Clock {
         result = 31 * result + minutes;
         result = 31 * result + hours;
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s:%s:%s", checkTimeDigits(hours), checkTimeDigits(minutes), checkTimeDigits(seconds));
     }
 }

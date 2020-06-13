@@ -3,7 +3,6 @@ package com.аnton.core.service;
 import com.аnton.core.entity.Dot;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class ArithmeticService {

@@ -1,4 +1,4 @@
-package service;
+package test.anton.service;
 
 import com.аnton.core.service.EvenElementsService;
 import org.testng.annotations.BeforeClass;

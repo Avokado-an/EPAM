@@ -3,36 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="04fd8d9e-1e48-426d-93ba-eedff156636d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/CoordinatesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/CoordinatesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/validator/NumberValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/validator/NumberValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/ArithmeticServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/ArithmeticServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/CircleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CircleServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/CoordinatesServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CoordinatesServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/EvenElementsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/EvenElementsServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/MonthSpecifierServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/MonthSpecifierServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/SquareServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/SquareServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/TimeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/TimeServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/validator/NumberValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/validator/NumberValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/executable/task9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/service/CoordinatesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/аnton/core/service/CoordinatesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/аnton/core/validator/NumberValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/аnton/core/validator/NumberValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/ArithmeticServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/ArithmeticServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/CircleServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/CircleServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/CoordinatesServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/CoordinatesServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/EvenElementsServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/EvenElementsServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/MonthSpecifierServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/MonthSpecifierServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/SquareServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/SquareServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/service/TimeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/TimeServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/validator/NumberValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/validator/NumberValidatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Dot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Dot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/ArithmeticService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/ArithmeticService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parser/NumberParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/parser/NumberParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/ArithmeticServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/ArithmeticServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/CircleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/CircleServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/CoordinatesServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/CoordinatesServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/EvenElementsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/EvenElementsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/MonthSpecifierServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/MonthSpecifierServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/SquareServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/SquareServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/TimeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/TimeServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/validator/NumberValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/validator/NumberValidatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,12 +63,12 @@
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="test.anton.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="test.anton.service.ArithmeticServiceTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -96,12 +80,12 @@
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="test.anton.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="test.anton.service.ArithmeticServiceTest" />
       <option name="METHOD_NAME" value="testValidCountTanInRange" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -114,12 +98,12 @@
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="test.anton.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="test.anton.service.ArithmeticServiceTest" />
       <option name="METHOD_NAME" value="xDependantHigherFuncInvalidTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -132,12 +116,12 @@
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="test.anton.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.ArithmeticServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="test.anton.service.ArithmeticServiceTest" />
       <option name="METHOD_NAME" value="xDependantHigherFuncValidTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -150,12 +134,12 @@
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="test.anton.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.TimeServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="test.anton.service.TimeServiceTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -201,7 +185,8 @@
       <workItem from="1591779350703" duration="722000" />
       <workItem from="1591947117740" duration="5179000" />
       <workItem from="1591952326529" duration="285000" />
-      <workItem from="1591952888715" duration="1925000" />
+      <workItem from="1591952888715" duration="3130000" />
+      <workItem from="1591962098961" duration="380000" />
     </task>
     <servers />
   </component>
@@ -225,6 +210,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="400" y="102" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1591516468695" />
+    <state x="590" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591962218777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="590" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1591962218777" />
     <state x="496" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591714692451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -233,26 +222,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591283712980" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1590763068619">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1591958714507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590763068619" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591955355208">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591958714507" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591958715875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591955355208" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591955355207">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591958715875" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591958715875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591955355207" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591955355207">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591958715875" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591958715875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591955355207" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591955355208">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591958715875" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591958715875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591955355208" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591958715875" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591558597724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

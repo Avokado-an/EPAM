@@ -1,4 +1,4 @@
-package service;
+package test.anton.service;
 
 import com.аnton.core.entity.Dot;
 import com.аnton.core.service.CoordinatesService;
@@ -12,7 +12,7 @@ public class CoordinatesServiceTest {
     private static CoordinatesService coordinatesService;
 
     @BeforeClass
-    public static void initialize() {
+    public static void setup() {
         coordinatesService = new CoordinatesService();
     }
 

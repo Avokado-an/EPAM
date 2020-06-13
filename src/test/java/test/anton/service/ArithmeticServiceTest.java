@@ -1,4 +1,4 @@
-package service;
+package test.anton.service;
 
 import com.аnton.core.entity.Dot;
 import com.аnton.core.service.ArithmeticService;
@@ -15,7 +15,7 @@ public class ArithmeticServiceTest {
     private static ArithmeticService arithmeticService;
 
     @BeforeClass
-    public static void initialize() {
+    public static void setup() {
         arithmeticService = new ArithmeticService();
     }
 

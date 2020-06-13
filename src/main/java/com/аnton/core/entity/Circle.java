@@ -16,11 +16,6 @@ public class Circle {
     }
 
     @Override
-    public String toString() {
-        return String.format("Circle of %.2f radius", radius);
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o)
             return true;
@@ -33,5 +28,11 @@ public class Circle {
     @Override
     public int hashCode() {
         return radius.hashCode();
+    }
+
+
+    @Override
+    public String toString() {
+        return String.format("Circle of %.2f radius", radius);
     }
 }
