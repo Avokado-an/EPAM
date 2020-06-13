@@ -1,4 +1,4 @@
-package test.anton.parser;
+package com.anton.test.parser;
 
 import com.аnton.core.validator.parser.NumberParser;
 import org.testng.annotations.BeforeClass;

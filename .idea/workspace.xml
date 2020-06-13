@@ -3,20 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="04fd8d9e-1e48-426d-93ba-eedff156636d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Dot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Dot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/entity/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/ArithmeticService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/аnton/core/service/ArithmeticService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parser/NumberParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/parser/NumberParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/ArithmeticServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/ArithmeticServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/CircleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/CircleServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/CoordinatesServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/CoordinatesServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/EvenElementsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/EvenElementsServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/MonthSpecifierServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/MonthSpecifierServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/SquareServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/SquareServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/TimeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/service/TimeServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/validator/NumberValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/anton/validator/NumberValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/anton/parser/NumberParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/test/parser/NumberParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/anton/service/ArithmeticServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/test/service/ArithmeticServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/anton/service/CircleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/test/service/CircleServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/anton/service/CoordinatesServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/test/service/CoordinatesServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/anton/service/EvenElementsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/test/service/EvenElementsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/anton/service/MonthSpecifierServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/test/service/MonthSpecifierServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/anton/service/SquareServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/test/service/SquareServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/anton/service/TimeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/test/service/TimeServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/anton/validator/NumberValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/test/validator/NumberValidatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +58,12 @@
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.anton.service.*" />
+          <option name="PATTERN" value="com.anton.test.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="test.anton.service.ArithmeticServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.test.service.ArithmeticServiceTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -80,12 +75,12 @@
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.anton.service.*" />
+          <option name="PATTERN" value="com.anton.test.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="test.anton.service.ArithmeticServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.test.service.ArithmeticServiceTest" />
       <option name="METHOD_NAME" value="testValidCountTanInRange" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -98,12 +93,12 @@
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.anton.service.*" />
+          <option name="PATTERN" value="com.anton.test.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="test.anton.service.ArithmeticServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.test.service.ArithmeticServiceTest" />
       <option name="METHOD_NAME" value="xDependantHigherFuncInvalidTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -116,12 +111,12 @@
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.anton.service.*" />
+          <option name="PATTERN" value="com.anton.test.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="test.anton.service.ArithmeticServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.test.service.ArithmeticServiceTest" />
       <option name="METHOD_NAME" value="xDependantHigherFuncValidTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -134,12 +129,12 @@
       <module name="EPAM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.anton.service.*" />
+          <option name="PATTERN" value="com.anton.test.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="test.anton.service.TimeServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.test.service.TimeServiceTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -187,6 +182,7 @@
       <workItem from="1591952326529" duration="285000" />
       <workItem from="1591952888715" duration="3130000" />
       <workItem from="1591962098961" duration="380000" />
+      <workItem from="1592032680423" duration="109000" />
     </task>
     <servers />
   </component>
@@ -210,10 +206,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="400" y="102" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1591516468695" />
-    <state x="590" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591962218777">
+    <state x="590" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592032767447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="590" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1591962218777" />
+    <state x="590" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1592032767447" />
     <state x="496" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591714692451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,4 +1,4 @@
-package test.anton.service;
+package com.anton.test.service;
 
 import com.аnton.core.entity.Clock;
 import com.аnton.core.service.TimeService;

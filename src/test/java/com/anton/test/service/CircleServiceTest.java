@@ -1,4 +1,4 @@
-package test.anton.service;
+package com.anton.test.service;
 
 import com.аnton.core.service.CircleService;
 import org.testng.annotations.BeforeClass;
